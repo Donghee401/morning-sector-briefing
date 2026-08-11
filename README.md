@@ -24,6 +24,7 @@
 ```
 ├── README.md                  ← 이 파일
 ├── SETUP-PROMPT.md            ← ⭐ 처음이라면 여기부터 (Claude에게 붙여넣는 세팅 가이드 프롬프트)
+├── MIGRATION-PROMPT.md        ← 구버전(v1) 사용 중이라면 이걸로 교체 (개인화 복원·백업·검증 자동)
 ├── UPGRADE-PLAN.md            ← 데이터 소스 업그레이드 로드맵 + 검증 로그
 ├── .mcp.json                  ← 검증된 MCP 커넥터 (OpenInsider·pykrx)
 └── morning-sector-briefing/
