@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "openinsider": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "openinsider-mcp"
+      ],
+      "env": {}
+    },
+    "pykrx": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--with",
+        "mcp<2",
+        "pykrx-mcp"
+      ],
+      "env": {}
+    }
+  }
+}
